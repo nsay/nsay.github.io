@@ -13,7 +13,7 @@ const getBtnTheme = localStorage.getItem('portfolio-btn-theme')
 
 addThemeClass(getBodyTheme, getBtnTheme)
 
-const isDark = () => body.classList.contains('dark')
+const isLight = () => body.classList.contains('light')
 
 const setTheme = (bodyClass, btnClass) => {
 
@@ -27,7 +27,7 @@ const setTheme = (bodyClass, btnClass) => {
 }
 
 const toggleTheme = () =>
-	isDark() ? setTheme('light', 'fa-moon') : setTheme('dark', 'fa-sun')
+	isLight() ? setTheme('dark', 'fa-sun') : setTheme('light', 'fa-moon')
 
 btnTheme.addEventListener('click', toggleTheme)
 
