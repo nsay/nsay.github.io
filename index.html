@@ -1,192 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <title>Narith Say</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="#" class="link">N.S.</a>
-      </h3>
 
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Portfolio" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/styles/styles.css" />
+	<title>Narith Say</title>
+</head>
 
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
+<body class="light" id="top">
+	<header class="header center">
+		<h3>
+			<a href="#" class="link">N.S.</a>
+		</h3>
 
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger">
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
+		<nav class="nav center">
+			<ul class="nav__list center">
+				<li class="nav__list-item">
+					<a class="link link--nav" href="#projects">Projects</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="link link--nav" href="#skills">Skills</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="link link--nav" href="#contact">Contact</a>
+				</li>
+			</ul>
 
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Narith Say.</span></h1>
-        <h2 class="about__role">Software Developer.</h2>
-        <p class="about__desc">
-          Recently turned IT Professional to Software Developer/Engineer
-        </p>
+			<button type="button" aria-label="toggle theme" class="btn btn--icon">
+				<i aria-hidden="true" id="btn-theme" class="fas fa-sun"></i>
+			</button>
 
-        <div class="about__contact center">
-          <a href="https://www.linkedin.com/in/narithsay/" target="_blank">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+			<button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+				<i aria-hidden="true" class="fas fa-bars"></i>
+			</button>
+		</nav>
+	</header>
 
-          <a
-            href="https://github.com/nsay"
-            aria-label="github"
-            class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
+	<main>
+		<!-- About -->
+		<div class="about center">
+			<h1>Hi, I am <span class="about__name">Narith Say.</span></h1>
+			<h2 class="about__role">Software Developer.</h2>
+			<p class="about__desc">
+				Recently turned IT Professional to Software Developer/Engineer
+			</p>
 
-          <a
-            href="https://www.linkedin.com/in/narithsay/"
-            aria-label="linkedin"
-            class="link link--icon"
-            target="_blank">
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-        </div>
-      </div>
+			<div class="about__contact center">
+				<a href="https://www.linkedin.com/in/narithsay/" target="_blank">
+					<span class="btn btn--outline">Resume</span>
+				</a>
 
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
+				<a href="https://github.com/nsay" aria-label="github" class="link link--icon" target="_blank">
+					<i aria-hidden="true" class="fab fa-github"></i>
+				</a>
 
-        <div class="projects__grid">
+				<a href="https://www.linkedin.com/in/narithsay/" aria-label="linkedin" class="link link--icon"
+					target="_blank">
+					<i aria-hidden="true" class="fab fa-linkedin"></i>
+				</a>
+			</div>
+		</div>
 
-          <div class="project">
-            <img src="./images/projects/netflix.png" alt="netflix project image" id="project-image">
-            <h3>Netflix</h3>
-            <p class="project__description">
-              Netflix clone to learn about Vue.js
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML</li>
-              <li class="project__stack-item">CSS</li>
-              <li class="project__stack-item">Vue.js</li>
-            </ul>
-            <a
-              href="https://github.com/nsay/Netflix"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="#"
-              aria-label="live preview"
-              class="link link--icon"
-              target="_blank">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
+		<!-- Projects -->
+		<section id="projects" class="section projects">
+			<h2 class="section__title">Projects</h2>
 
-          <div class="project">
-            <img src="./images/projects/robofriends.png" alt="robofriends project image" id="project-image">
-            <h3>Robofriends</h3>
-            <p class="project__description">
-              Small web app to learn the basics about React
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">HTML</li>
-              <li class="project__stack-item">CSS</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-            <a
-              href="https://github.com/nsay/Robofriends"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank">
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="#"
-              aria-label="live preview"
-              class="link link--icon"
-              target="_blank">
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
+			<div class="projects__grid">
 
-        </div>
-      </section>
+				<!-- Netflix -->
+				<div class="project">
+					<img src="./images/projects/netflix.png" alt="netflix project image" id="project-image">
+					<h3>Netflix</h3>
+					<p class="project__description">
+						Netflix clone to learn about Vue.js
+					</p>
+					<ul class="project__stack">
+						<li class="project__stack-item">HTML</li>
+						<li class="project__stack-item">CSS</li>
+						<li class="project__stack-item">Vue.js</li>
+					</ul>
+					<a href="https://github.com/nsay/Netflix" aria-label="source code" class="link link--icon"
+						target="_blank">
+						<i aria-hidden="true" class="fab fa-github"></i>
+					</a>
+					<a href="https://narithsay.com/Netflix/" aria-label="live preview" class="link link--icon"
+						target="_blank">
+						<i aria-hidden="true" class="fas fa-external-link-alt"></i>
+					</a>
+				</div>
 
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">HTML</li>
-          <li class="skills__list-item btn btn--plain">CSS</li>
-          <li class="skills__list-item btn btn--plain">JavaScript</li>
-          <li class="skills__list-item btn btn--plain">TypeScript</li>
-          <li class="skills__list-item btn btn--plain">Angular</li>
-          <li class="skills__list-item btn btn--plain">C#</li>
-          <li class="skills__list-item btn btn--plain">ASP.NET</li>
-          <li class="skills__list-item btn btn--plain">SQL</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-        </ul>
-      </section>
+				<!-- Robofriends -->
+				<div class="project">
+					<img src="./images/projects/robofriends.png" alt="robofriends project image" id="project-image">
+					<h3>Robofriends</h3>
+					<p class="project__description">
+						Small web app to learn the basics about React
+					</p>
+					<ul class="project__stack">
+						<li class="project__stack-item">HTML</li>
+						<li class="project__stack-item">CSS</li>
+						<li class="project__stack-item">React</li>
+					</ul>
+					<a href="https://github.com/nsay/Robofriends" aria-label="source code" class="link link--icon"
+						target="_blank">
+						<i aria-hidden="true" class="fab fa-github"></i>
+					</a>
+					<a href="https://narithsay.com/Robofriends/" aria-label="live preview" class="link link--icon"
+						target="_blank">
+						<i aria-hidden="true" class="fas fa-external-link-alt"></i>
+					</a>
+				</div>
 
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:narithsay@gmail.com">
-          <span class="btn btn--outline">Email me</span>
-        </a>
-      </section>
-    </main>
+			</div>
+		</section>
 
-    <footer class="footer">
-      <a
-        href="https://github.com/nsay"
-        class="link footer__link"
-        target="_blank">
-        Created By Narith Say
-      </a>
-      <h6 style="font-size: 0.8rem">Last Updated: 02/2023</h6>
-    </footer>
+		<!-- Skills -->
+		<section class="section skills" id="skills">
+			<h2 class="section__title">Skills</h2>
+			<ul class="skills__list">
+				<li class="skills__list-item btn btn--plain">HTML</li>
+				<li class="skills__list-item btn btn--plain">CSS</li>
+				<li class="skills__list-item btn btn--plain">JavaScript</li>
+				<li class="skills__list-item btn btn--plain">TypeScript</li>
+				<li class="skills__list-item btn btn--plain">Angular</li>
+				<li class="skills__list-item btn btn--plain">C#</li>
+				<li class="skills__list-item btn btn--plain">ASP.NET</li>
+				<li class="skills__list-item btn btn--plain">SQL</li>
+				<li class="skills__list-item btn btn--plain">Git</li>
+			</ul>
+		</section>
 
-    <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
-    </div>
+		<!-- Contact -->
+		<section class="section contact center" id="contact">
+			<h2 class="section__title">Contact</h2>
+			<a href="mailto:narithsay@gmail.com">
+				<span class="btn btn--outline">Email me</span>
+			</a>
+		</section>
+	</main>
 
-    <script src="/scripts/script.js"></script>
-  </body>
+	<!-- Footer -->
+	<footer class="footer">
+		<a href="https://github.com/nsay" class="link footer__link" target="_blank">
+			Created By Narith Say
+		</a>
+		<h6 style="font-size: 0.8rem">Last Updated: 02/2023</h6>
+	</footer>
+
+	<div class="scroll-container">
+		<div class="scroll-top">
+			<a aria-label="Scroll up" href="#top">
+				<i aria-hidden="true" class="fas fa-arrow-up"></i>
+			</a>
+		</div>
+	</div>
+
+	<script src="/scripts/script.js"></script>
+</body>
+
 </html>
