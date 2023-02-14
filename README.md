@@ -1,13 +1,4 @@
-# Cleanfolio Minimal
+# nsay.github.io
+portfolio website
 
-A clean and simple portfolio template built with plain HTML, CSS and JavaScript.
-
-## Preview
-
-[![imgur](https://i.imgur.com/5z7cvMz.gif)](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-[See Live](https://rajshekhar26.github.io/cleanfolio-minimal)
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+Firefly background by [cszhu](https://github.com/cszhu/firefly.js/tree/master)

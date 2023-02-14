@@ -224,6 +224,7 @@ main {
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
+  /*background: rgba(35, 40, 62, .1);*/
 }
 
 .section {
@@ -287,6 +288,10 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+}
+
+#project-image {
+  width: 100%;
 }
 
 .project {
