@@ -27,8 +27,8 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+  --clr-bg: #f5f5f5;
+  --clr-bg-alt: #fcfcfc;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
